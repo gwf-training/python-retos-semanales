@@ -16,7 +16,7 @@ Escribe un programa que reciba un texto y transforme lenguaje natural a "lenguaj
 Este lenguaje se caracteriza por sustituir caracteres alfanuméricos.
 - Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/) con el alfabeto y los números en "leet".
   (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a")
- ```
+```
 
 ### Reto #3: EL PARTIDO DE TENIS
 #### Publicación: 09/01/23 | MEDIA
@@ -35,4 +35,16 @@ El programa recibirá una secuencia formada por "P1" (Player 1) o "P2" (Player 2
       Ha ganado el P1
   - Si quieres, puedes controlar errores en la entrada de datos.
   - Consulta las reglas del juego si tienes dudas sobre el sistema de puntos.   
- ```
+```
+
+### Reto #3: EL GENERADOR DE CONTRASEÑAS
+#### Publicación: 16/01/23 | MEDIA
+```
+Escribe un programa que sea capaz de generar contraseñas de forma aleatoria.
+Podrás configurar generar contraseñas con los siguientes parámetros:
+- Longitud: Entre 8 y 16.
+- Con o sin letras mayúsculas.
+- Con o sin números.
+- Con o sin símbolos.
+(Pudiendo combinar todos estos parámetros entre ellos)
+```

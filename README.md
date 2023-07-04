@@ -59,3 +59,15 @@ Ejemplos:
 - Con el número 2, nos dirá: "2 es primo, fibonacci y es par"
 - Con el número 7, nos dirá: "7 es primo, no es fibonacci y es impar"
 ```
+
+### Reto #6: PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK
+#### Publicación: 06/02/23 | MEDIA
+Crea un programa que calcule quien gana más partidas al piedra, papel, tijera, lagarto, spock.
+```
+- El resultado puede ser: "Player 1", "Player 2", "Tie" (empate)
+- La función recibe un listado que contiene pares, representando cada jugada.
+- El par puede contener combinaciones de "🗿" (piedra), "📄" (papel),
+  "✂️" (tijera), "🦎" (lagarto) o "🖖" (spock).
+- Ejemplo. Entrada: [("🗿","✂️"), ("✂️","🗿"), ("📄","✂️")]. Resultado: "Player 2".
+- Debes buscar información sobre cómo se juega con estas 5 posibilidades.
+```

@@ -1,6 +1,6 @@
 # Retos semanales
 
-### Reto #1: EL FAMOSO "FIZZ BUZZ"
+### Reto #0: EL FAMOSO "FIZZ BUZZ"
 #### Publicación: 26/12/22 | FÁCIL
 ```
 Escribe un programa que muestre por consola los números de 1 a 100 (ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:
@@ -9,7 +9,7 @@ Escribe un programa que muestre por consola los números de 1 a 100 (ambos inclu
 - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 ```
 
-### Reto #2: EL "LENGUAJE HACKER"
+### Reto #1: EL "LENGUAJE HACKER"
 #### Publicación: 02/01/23 | FÁCIL
 ```
 Escribe un programa que reciba un texto y transforme lenguaje natural a "lenguaje hacker" (conocido realmente como "leet" o "1337"). 
@@ -18,7 +18,7 @@ Este lenguaje se caracteriza por sustituir caracteres alfanuméricos.
   (Usa la primera opción de cada transformación. Por ejemplo "4" para la "a")
 ```
 
-### Reto #3: EL PARTIDO DE TENIS
+### Reto #2: EL PARTIDO DE TENIS
 #### Publicación: 09/01/23 | MEDIA
 ```
 Escribe un programa que muestre cómo transcurre un juego de tenis y quién lo ha ganado.
@@ -47,4 +47,15 @@ Podrás configurar generar contraseñas con los siguientes parámetros:
 - Con o sin números.
 - Con o sin símbolos.
 (Pudiendo combinar todos estos parámetros entre ellos)
+```
+
+#### Reto #4: PRIMO, FIBONACCI Y PAR
+#### Publicación: 23/01/23 | MEDIA
+
+```
+Escribe un programa que, dado un número, compruebe y muestre si es primo,
+fibonacci y par.
+Ejemplos:
+- Con el número 2, nos dirá: "2 es primo, fibonacci y es par"
+- Con el número 7, nos dirá: "7 es primo, no es fibonacci y es impar"
 ```

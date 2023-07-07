@@ -92,3 +92,11 @@ Crea un programa que simule el comportamiento del sombrero selccionador del univ
 Crea un generador de números pseudoaleatorios entre 0 y 100.
 - No puedes usar ninguna función "random" (o semejante) del lenguaje de programación seleccionado.
 ```
+
+### Reto #9: HETEROGRAMA, ISOGRAMA Y PANGRAMA
+#### Publicación: 27/02/23 | FACIL
+/*
+ * Crea 3 funciones, cada una encargada de detectar si una cadena de
+ * texto es un heterograma, un isograma o un pangrama.
+ * - Debes buscar la definición de cada uno de estos términos.
+ */

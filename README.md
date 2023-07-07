@@ -95,8 +95,17 @@ Crea un generador de números pseudoaleatorios entre 0 y 100.
 
 ### Reto #9: HETEROGRAMA, ISOGRAMA Y PANGRAMA
 #### Publicación: 27/02/23 | FACIL
-/*
- * Crea 3 funciones, cada una encargada de detectar si una cadena de
- * texto es un heterograma, un isograma o un pangrama.
- * - Debes buscar la definición de cada uno de estos términos.
- */
+```
+Crea 3 funciones, cada una encargada de detectar si una cadena de texto es un heterograma, un isograma o un pangrama.
+- Debes buscar la definición de cada uno de estos términos.
+```
+
+### Reto #10: LA API
+#### Publicación: 06/03/23 | MEDIA
+```
+Llamar a una API es una de las tareas más comunes en programación.
+Implementa una llamada HTTP a una API (la que tú quieras) y muestra su resultado a través de la terminal. 
+Por ejemplo: Pokémon, Marvel...
+Aquí tienes un listado de posibles APIs: 
+- https://github.com/public-apis/public-apis
+```

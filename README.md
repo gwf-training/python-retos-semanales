@@ -72,8 +72,8 @@ Crea un programa que calcule quien gana más partidas al piedra, papel, tijera, 
 - Debes buscar información sobre cómo se juega con estas 5 posibilidades.
 ```
 
-#### Reto #7: EL SOMBRERO SELECCIONADOR
-### Publicación: 13/02/23 | MEDIA
+### Reto #7: EL SOMBRERO SELECCIONADOR
+#### Publicación: 13/02/23 | MEDIA
 ```
 Crea un programa que simule el comportamiento del sombrero selccionador del universo mágico de Harry Potter.
 - De ser posible realizará 5 preguntas (como mínimo) a través de la terminal.
@@ -84,4 +84,11 @@ Crea un programa que simule el comportamiento del sombrero selccionador del univ
 - Ten en cuenta los rasgos de cada casa para hacer las preguntas
   y crear el algoritmo seleccionador:
   Por ejemplo, en Slytherin se premia la ambición y la astucia.
+```
+
+### Reto #8: EL GENERADOR PSEUDOALEATORIO
+#### Publicación: 20/02/23 | MEDIA
+```
+Crea un generador de números pseudoaleatorios entre 0 y 100.
+- No puedes usar ninguna función "random" (o semejante) del lenguaje de programación seleccionado.
 ```

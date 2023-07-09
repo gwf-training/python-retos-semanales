@@ -20,7 +20,7 @@ import random
 import string
 import re
 
-MAXIMO_INTENTOS_FALLIDOS: int = 3
+MAXIMO_INTENTOS_FALLIDOS = 3
 MASCARA = "*"
 ALFABETO = set(string.ascii_uppercase)
 #VOCALES = set({"A","E","I","O","U"})
@@ -65,14 +65,12 @@ def seleccionar_palabra() -> tuple:
     return (palabra_original, palabra_enmascarada)
 
 def verficar_letra(letra: str, palabra_original: str, palabra_enmascarada: str) -> tuple:
-    new_palabra = []
     if letra in palabra_original:
-        new_palabra = list(palabra_enmascarada)
+        new_palabra_enmascarada = list(palabra_enmascarada)
         for found in re.finditer(letra, palabra_original):
             index, _ = found.span()
-            new_palabra[index] = letra
-        palabra_enmascarada = "".join(new_palabra)
-        return (True, "".join(new_palabra))
+            new_palabra_enmascarada[index] = letra
+        return (True, "".join(new_palabra_enmascarada))
     else:
         return (False, palabra_enmascarada)
 

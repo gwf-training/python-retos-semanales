@@ -139,3 +139,10 @@ Crea un pequeño juego que consista en adivinar palabras en un número máximo d
 - La palabra debe ocultar de forma aleatoria letras, y nunca puede comenzar ocultando más del 60%
 - Puedes utilizar las palabras que quieras y el número de intentos que consideres
 ```
+
+### Reto #14: OCTAL Y HEXADECIMAL
+#### Publicación: 03/04/23 | FÁCIL
+```
+Crea una función que reciba un número decimal y lo trasforme a Octal y Hexadecimal.
+- No está permitido usar funciones propias del lenguaje de programación que realicen esas operaciones directamente.
+```

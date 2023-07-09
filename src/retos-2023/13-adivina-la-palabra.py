@@ -21,7 +21,7 @@ import string
 import re
 
 MAXIMO_INTENTOS_FALLIDOS = 3
-MASCARA = "*"
+MASCARA = "_"
 ALFABETO = set(string.ascii_uppercase)
 #VOCALES = set({"A","E","I","O","U"})
 #CONSONANTES = ALFABETO - VOCALES
@@ -43,7 +43,7 @@ def input_manual_letter(palabra_enmascarada: str) -> str:
     if len(letter) == 1 and letter not in palabra_enmascarada:
         return letter
     else:
-        print('Caramba, la letra ya fue seleccionada \n')
+        print('Caramba, esa no es la palabra\n')
         return input_manual_letter(palabra_enmascarada)
 
 def enmascarar_palabra(palabra: str) -> list[str]:
@@ -79,6 +79,13 @@ def verificar_palabra(dato, palabra_original, palabra_enmascarada) -> tuple:
         return True, palabra_original
     else:
         return False, palabra_enmascarada
+
+def formatear_palabra(palabra: str) -> str:
+    letras = set([*palabra])
+    new_palabra = str(palabra)
+    for letra in list(letras):
+        new_palabra = new_palabra.replace(letra, letra + ' ')
+    return new_palabra
     
 def jugar():
     print("-----------------------------------------------------------------------------")
@@ -88,8 +95,8 @@ def jugar():
     letras_ingresadas = []
     total_letras = len(palabra_original)
     while not adivino_palabra and intentos_fallidos < MAXIMO_INTENTOS_FALLIDOS:
-        cantidad_letras_enmascaradas = len(list(filter(lambda l: l == '*' , palabra_enmascarada)))
-        print(f'\nPALABRA ({total_letras-cantidad_letras_enmascaradas}/{total_letras}):\t{palabra_enmascarada}\t ingresos: {list(letras_ingresadas)}')
+        cantidad_letras_enmascaradas = len(list(filter(lambda l: l == MASCARA , palabra_enmascarada)))
+        print(f'\nPALABRA ({total_letras-cantidad_letras_enmascaradas}/{total_letras}):\t{formatear_palabra(palabra_enmascarada)}\t ingresos: {list(letras_ingresadas)}')
         #dato = input_random_letter(palabra_enmascarada)
         dato = input_manual_letter(palabra_enmascarada)
         if len(dato) == 1:
@@ -102,7 +109,7 @@ def jugar():
             if palabra_original == palabra_enmascarada:
                adivino_palabra = True
             else:
-                print("bien!!!")
+                print("Muy bien, ya lo tienes!!!")
         else:
             intentos_fallidos += 1
             if intentos_fallidos < MAXIMO_INTENTOS_FALLIDOS:

@@ -146,3 +146,12 @@ Crea un pequeño juego que consista en adivinar palabras en un número máximo d
 Crea una función que reciba un número decimal y lo trasforme a Octal y Hexadecimal.
 - No está permitido usar funciones propias del lenguaje de programación que realicen esas operaciones directamente.
 ```
+### Reto #15: AUREBESH
+#### Publicación: 10/04/23 | FÁCIL
+```
+Crea una función que sea capaz de transformar Español al lenguaje básico del universo Star Wars: el "Aurebesh".
+- Puedes dejar sin transformar los caracteres que no existan en "Aurebesh".
+- También tiene que ser capaz de traducir en sentido contrario.
+ 
+¡Que la fuerza os acompañe!
+ ```

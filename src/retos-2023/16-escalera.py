@@ -25,8 +25,8 @@ def print_step_down(level: int):
         print(f' {"  " * i}|_')
 
 def print_level_0():
-    print("_")
-    
+    print("__")
+
 def print_stair(level: int):
     fn = print_step_up if level > 0 else print_step_down if level < 0 else print_level_0
     fn()

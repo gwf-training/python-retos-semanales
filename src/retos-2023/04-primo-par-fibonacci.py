@@ -11,7 +11,7 @@ def es_par(number: int) -> bool:
     return number % 2 == 0
 
 def es_primo(number: int) -> bool:
-    if number == 1 or number == 0: return True
+    if number == 1 or number == 0: return False
     for i in range(2, number):
         if number % i == 0:
             return False

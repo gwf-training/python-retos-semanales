@@ -241,3 +241,18 @@ El programa recibirá el rango máximo como número entero positivo.
 - Ejemplo: Rango 14
   (3, 5), (5, 7), (11, 13)
 ```
+
+### Reto #22: LA ESPIRAL
+#### Publicación: 29/05/23 | MEDIA
+```
+Crea una función que dibuje una espiral como la del ejemplo.
+- Únicamente se indica de forma dinámica el tamaño del lado.
+- Símbolos permitidos: ═ ║ ╗ ╔ ╝ ╚
+ *
+Ejemplo espiral de lado 5 (5 filas y 5 columnas):
+════╗
+╔══╗║
+║╔╗║║
+║╚═╝║
+╚═══╝
+```

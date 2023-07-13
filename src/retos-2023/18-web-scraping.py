@@ -28,7 +28,9 @@ def mostrar_agenda():
     #print(soup.body) # gives the whole page on the website
 
     print('\n4 de Mayo')
-    blockquotes = soup.find_all("blockquote")
+    #blockquotes = soup.find_all("blockquote")
+    blockquotes = soup.find_all("blockquote", class_="BlockquoteElement___StyledBlockquote-sc-1dtx4ci-0 slate-BlockquoteElement notion-quote unset-width")
+    #blockquotes = soup.find_all(["h1", "blockquote"], {"data-slate-node" : "element"})
     for blockquote in blockquotes[14:21]:
         print(blockquote.text.replace('\n',' | '))
 

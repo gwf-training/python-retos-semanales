@@ -200,3 +200,16 @@ Ejemplo: "16:00 | Bienvenida"
 
 Se permite utilizar librerías que nos faciliten esta tarea.
 ```
+
+### Reto #19: ANÁLISIS DE TEXTO
+#### Publicación: 11/05/23 | MEDIA
+```
+Crea un programa que analice texto y obtenga:
+- Número total de palabras.
+- Longitud media de las palabras.
+- Número de oraciones del texto (cada vez que aparecen un punto).
+- Encuentre la palabra más larga.
+
+Todo esto utilizando un único bucle.
+```
+

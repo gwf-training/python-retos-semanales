@@ -260,16 +260,24 @@ Ejemplo espiral de lado 5 (5 filas y 5 columnas):
 ### Reto #23: LA BASE DE DATOS
 #### Publicación: 06/06/23 | MEDIA
 ```
- Realiza una conexión desde el lenguaje que hayas seleccionado a la siguiente
- base de datos MySQL:
- - Host: mysql-5707.dinaserver.com
- - Port: 3306
- - User: mouredev_read
- - Password: mouredev_pass
- - Database: moure_test
+Realiza una conexión desde el lenguaje que hayas seleccionado a la siguiente base de datos MySQL:
+- Host: mysql-5707.dinaserver.com
+- Port: 3306
+- User: mouredev_read
+- Password: mouredev_pass
+- Database: moure_test
  
- Una vez realices la conexión, lanza la siguiente consulta e imprime el resultado:
- - SELECT * FROM `challenges`
+Una vez realices la conexión, lanza la siguiente consulta e imprime el resultado:
+ - SELECTFROM `challenges`
  
- Se pueden usar librerías para realizar la lógica de conexión a la base de datos.
- ```
+Se pueden usar librerías para realizar la lógica de conexión a la base de datos.
+```
+
+### Reto #24: CIFRADO CÉSAR
+### Publicación: 12/06/23 | FÁCIL
+```
+Crea un programa que realize el cifrado César de un texto y lo imprima.
+También debe ser capaz de descifrarlo cuando así se lo indiquemos.
+
+Te recomiendo que busques información para conocer en profundidad cómo realizar el cifrado. Esto también forma parte del reto.
+```

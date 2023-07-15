@@ -297,3 +297,14 @@ Crea tres test sobre el reto 12: "Viernes 13".
 - Debes emplear un mecanismo de ejecución de test que posea el lenguaje de programación que hayas seleccionado.
 - Los tres test deben de funcionar y comprobar diferentes situaciones (a tu elección).
 ```
+
+### Reto #27: CUENTA ATRÁS
+#### Publicación: 03/07/23 | MEDIA
+```
+Crea una función que reciba dos parámetros para crear una cuenta atrás.
+- El primero, representa el número en el que comienza la cuenta.
+- El segundo, los segundos que tienen que transcurrir entre cada cuenta.
+- Sólo se aceptan números enteros positivos.
+- El programa finaliza al llegar a cero.
+- Debes imprimir cada número de la cuenta atrás.
+```

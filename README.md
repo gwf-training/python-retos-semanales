@@ -281,3 +281,10 @@ También debe ser capaz de descifrarlo cuando así se lo indiquemos.
 
 Te recomiendo que busques información para conocer en profundidad cómo realizar el cifrado. Esto también forma parte del reto.
 ```
+
+### Reto #25: EL CÓDIGO KONAMI
+#### Publicación: 19/06/23 | MEDIA
+```
+Crea un programa que detecte cuando el famoso "Código Konami" se ha  introducido correctamente desde el teclado. 
+Si sucede esto, debe notificarse mostrando un mensaje en la terminal.
+```
